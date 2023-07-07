@@ -17,12 +17,36 @@ the matter, we only consider classification for only one class and one label (bi
 ![image](https://github.com/aliamrod/PyTorch-and-Monai-for-AI-Healthcare-Imaging/assets/62684338/b685165b-7d3f-46ad-999b-cd47b2e8fc6a)
 
 
-In the classificaton task, we output a vector of size _k_, where _k_ is the number of classes. In detection tasks, we need to output the vector `x, y, height, width, class`, which define bounding boxes. However, in segmentation tasks, we need to output an image with the same dimension as the original input. This represents quite an engineering challenge-- =="Now, how can a neural network extract relevant features from the input image, and then project them into segmentation masls?==
+In the classificaton task, we output a vector of size _k_, where _k_ is the number of classes. In detection tasks, we need to output the vector `x, y, height, width, class`, which define bounding boxes. However, in segmentation tasks, we need to output an image with the same dimension as the original input. This represents quite an engineering challenge-- "Now, how can a neural network extract relevant features from the input image, and then project them into segmentation masks?"
+
+### Encoder-Decoder
+The reason why encoder-decoders are relevant is due to the notion that they produce outputs similar to what we desire: output(s) that have the same dimension as the input. Can we apply the concept of encoder-decoder to image segmentation? We can surely generate a one-dimensional binary mask and train the network utilizing cross-entropy loss. In this case, cross-entropy is used to measure the difference between two probability distributions. It is used as a similarity metric to tell how close one distribution of random events are to another, and is used for both classification (in the general sense) as well as segmentation.
+
+Our network consists of two parts: the **encoder** which extracts relevant features from images, and the **decoder** part which takes the extracted features and reconstructs a segmentation mask. 
 
 
+![image](https://github.com/aliamrod/PyTorch-and-Monai-for-AI-Healthcare-Imaging/assets/62684338/1747c48f-3140-4e86-b98a-ddbbdb1302a5)
+
+<sub>Fig. 03. An encoder-decoder network for image segmentation.</sub>
+
+In the encoder part, I used convolutional layers, followed by `ReLu` and `MaxPool` as the feature extractors. In the decoder part, I transposed convolution to increase the size of the feature map and decrease the number of channels. I utilized padding to maintain the size of the feature maps the same after convolution operations. One thing you may notice is that unlike classification networks, this network does not have a fully connected/linear layer. This is an instance of a **fully convolutional network** (FCN). FCN has been shown to work well on segmentatoin tasks, starting with Shelhamer _et al._ paper "Fully Convolutional Networks for Semantic Segmentation". 
+
+However, this ne
 
 References
 [1] "U-Net: Convolutional Networks for Biomedical Image Segmentation". _International Conference on Medical image computing and computer-assisted intervention._
 [2] "Understanding U-Net: U-Net has become the go-to method for image segmentation. But how did it come to be?"
 [3] "Fully convolutional networks for semantic segmentation." _Proceedings of the IEEE conference on computer vision and pattern recognition._ 
 [4] "V-net: Fully convolutional neural networks for volumetric medical image segmentation." _2016 Fourth Internation Conference on 3D Vision (3DV)._
+[5] "Understanding Latent Space in Machine Learning". _Towards Data Science._
+[6] "Confounders mediate AI prediction of demographics in medical imaging". 
+[7] "Robust and data-efficient generalization of self-supevised machine learning for diagnostic imaging".
+[8] "Medical imaging data science competitions should report dataset demographics and evaluate for bias".
+[9]
+[10]
+[11]
+[12]
+[13]
+[14]
+[15]
+
