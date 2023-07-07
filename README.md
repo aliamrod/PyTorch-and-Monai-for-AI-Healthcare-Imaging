@@ -17,7 +17,7 @@ the matter, we only consider classification for only one class and one label (bi
 ![image](https://github.com/aliamrod/PyTorch-and-Monai-for-AI-Healthcare-Imaging/assets/62684338/b685165b-7d3f-46ad-999b-cd47b2e8fc6a)
 
 
-In the classificaton task, we output a vector of size _k_, where _k_ is the number of classes. In detection tasks, we need to output the vector '''x, y, height, width, class''', which define bounding boxes. However, in segmentation tasks, we need to output an image with the same dimension as the original input. This represents quite an engineering challenge-- "Now, how can a neural network extract relevant features from the input image, and then project them into segmentation masls?"
+In the classificaton task, we output a vector of size _k_, where _k_ is the number of classes. In detection tasks, we need to output the vector `x, y, height, width, class`, which define bounding boxes. However, in segmentation tasks, we need to output an image with the same dimension as the original input. This represents quite an engineering challenge-- "Now, how can a neural network extract relevant features from the input image, and then project them into segmentation masls?"
 
 
 
