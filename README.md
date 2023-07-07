@@ -35,18 +35,32 @@ However, this ne
 
 References
 [1] "U-Net: Convolutional Networks for Biomedical Image Segmentation". _International Conference on Medical image computing and computer-assisted intervention._
+
 [2] "Understanding U-Net: U-Net has become the go-to method for image segmentation. But how did it come to be?"
+
 [3] "Fully convolutional networks for semantic segmentation." _Proceedings of the IEEE conference on computer vision and pattern recognition._ 
+
 [4] "V-net: Fully convolutional neural networks for volumetric medical image segmentation." _2016 Fourth Internation Conference on 3D Vision (3DV)._
+
 [5] "Understanding Latent Space in Machine Learning". _Towards Data Science._
+
 [6] "Confounders mediate AI prediction of demographics in medical imaging". 
+
 [7] "Robust and data-efficient generalization of self-supevised machine learning for diagnostic imaging".
+
 [8] "Medical imaging data science competitions should report dataset demographics and evaluate for bias".
+
 [9]
+
 [10]
+
 [11]
+
 [12]
+
 [13]
+
 [14]
+
 [15]
 
