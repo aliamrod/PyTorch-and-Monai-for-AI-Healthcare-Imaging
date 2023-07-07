@@ -33,7 +33,8 @@ In the encoder part, I used convolutional layers, followed by `ReLu` and `MaxPoo
 
 However, this ne
 
-References
+### References
+
 [1] "U-Net: Convolutional Networks for Biomedical Image Segmentation". _International Conference on Medical image computing and computer-assisted intervention._
 
 [2] "Understanding U-Net: U-Net has become the go-to method for image segmentation. But how did it come to be?"
