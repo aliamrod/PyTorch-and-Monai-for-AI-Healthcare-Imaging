@@ -33,6 +33,15 @@ In the encoder part, I used convolutional layers, followed by `ReLu` and `MaxPoo
 
 However, this ne
 
+
+### Software Installation
+```
+Python
+VS Code
+3D Slicer
+ITK-SNAP
+```
+
 ### References
 
 [1] "U-Net: Convolutional Networks for Biomedical Image Segmentation". _International Conference on Medical image computing and computer-assisted intervention._
