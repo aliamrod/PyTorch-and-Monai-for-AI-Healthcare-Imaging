@@ -55,6 +55,23 @@ For generalizable 3D semantic segmentation medical data, 'medicaldecathlon.com' 
 https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2
 ```
 
+### Preperating the Data/Pre-Processing
+
+
+### Dice Loss
+
+
+### Weighted Cross Entropy
+
+
+### Training
+
+
+### Testing
+
+
+
+
 
 ### References
 
