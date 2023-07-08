@@ -48,6 +48,14 @@ VS Code
 ITK-SNAP
 ```
 
+
+### Finding Dataset(s)
+For generalizable 3D semantic segmentation medical data, 'medicaldecathlon.com' was consulted. 
+```
+https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2
+```
+
+
 ### References
 
 [1] "U-Net: Convolutional Networks for Biomedical Image Segmentation". _International Conference on Medical image computing and computer-assisted intervention._
