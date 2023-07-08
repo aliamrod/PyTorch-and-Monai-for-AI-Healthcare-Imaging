@@ -1,4 +1,4 @@
-# Liver Segmentation Using PyTorch and Monai for AI Healthcare Imaging
+# Organ Segmentation Using PyTorch and Monai for AI Healthcare Imaging
 
 Overview
 -------------------------------------------------
