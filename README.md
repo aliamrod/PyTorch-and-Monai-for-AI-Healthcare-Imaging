@@ -1,4 +1,4 @@
-# PyTorch-and-Monai-for-AI-Healthcare-Imaging
+# Liver-Segmentation-Using-PyTorch-and-Monai-for-AI-Healthcare-Imaging
 
 Introduction to Monai, PyTorch, and U-Net.
 
