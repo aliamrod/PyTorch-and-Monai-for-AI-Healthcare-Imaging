@@ -1,4 +1,10 @@
-# Liver-Segmentation-Using-PyTorch-and-Monai-for-AI-Healthcare-Imaging
+# Liver Segmentation Using PyTorch and Monai for AI Healthcare Imaging
+
+Overview
+-------------------------------------------------
+In the following repository, you will locate Python files required to accomplish liver segmentation with Monai and PyTorch. The same code may be utilized against other organs to perform segmentation as well. 
+
+![image](https://github.com/aliamrod/PyTorch-and-Monai-for-AI-Healthcare-Imaging/assets/62684338/d2f132e5-09c0-42bc-96fb-0d4bb19c067f)
 
 Introduction to Monai, PyTorch, and U-Net.
 
