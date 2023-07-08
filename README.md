@@ -6,8 +6,8 @@ In the following repository, you will locate Python files required to accomplish
 
 ![image](https://github.com/aliamrod/PyTorch-and-Monai-for-AI-Healthcare-Imaging/assets/62684338/d2f132e5-09c0-42bc-96fb-0d4bb19c067f)
 
-Introduction to Monai, PyTorch, and U-Net.
-
+### Introduction to Monai, PyTorch, and U-Net.
+-------------------------------------------------
 The U-Net confers to a convolutional network architecture for fast and precise segmentation of images. Recall, a convolutional neural network (CNN or ConvNet) is a network 
 architecture for deep learning that learns directly from data. CNNs are particularly useful for finding patterns in images to recognize objects, classes and categorites.
 U-Net is developed for the task of semantic segmentation; when a neural network is fed images as inputs, we can choose to classify objects either generally or by instances. 
