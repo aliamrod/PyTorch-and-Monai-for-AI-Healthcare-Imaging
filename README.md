@@ -1,4 +1,4 @@
-# Organ Segmentation Using PyTorch and Monai for AI Healthcare Imaging
+# Segmentation Using PyTorch and Monai for AI Healthcare Imaging
 
 Overview
 -------------------------------------------------
