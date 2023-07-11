@@ -54,10 +54,7 @@ For generalizable 3D semantic segmentation medical data, 'medicaldecathlon.com' 
 https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2
 ```
 
-### Preperating the Data/Pre-Processing
 
-
-### Dice Loss
 
 
 ### Weighted Cross Entropy
@@ -66,7 +63,10 @@ https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2
 ### Training
 
 
-### Testing
+### Testing the Model
+To test the model, I have provided the Jupyter notebook testing.ipynb file that contains the different codes that needed to accomplish this portion of the analysis. You will find the part to plot the training/testing graphs about the loss and the dice coefficient and of course you will find the the part to show the results of one of the test data to see the output of your model.
+
+<img width="554" alt="graphs" src="https://github.com/aliamrod/PyTorch-and-Monai-for-AI-Healthcare-Imaging/assets/62684338/89a0a6a8-d6bb-4cee-a0fd-0aa2ac7e610b">
 
 
 
