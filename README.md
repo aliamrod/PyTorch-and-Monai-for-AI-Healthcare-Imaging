@@ -37,7 +37,6 @@ Our network consists of two parts: the **encoder** which extracts relevant featu
 
 In the encoder part, I used convolutional layers, followed by `ReLu` and `MaxPool` as the feature extractors. In the decoder part, I transposed convolution to increase the size of the feature map and decrease the number of channels. I utilized padding to maintain the size of the feature maps the same after convolution operations. One thing you may notice is that unlike classification networks, this network does not have a fully connected/linear layer. This is an instance of a **fully convolutional network** (FCN). FCN has been shown to work well on segmentatoin tasks, starting with Shelhamer _et al._ paper "Fully Convolutional Networks for Semantic Segmentation". 
 
-However, this ne
 
 
 ### Software Installation
